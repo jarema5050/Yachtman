@@ -2,7 +2,7 @@
   "name": "yachtman",
   "version": "0.1.0",
   "private": true,
-  "engines":{
+  "engines": {
     "node": "13.2.0",
     "npm": "6.13.1"
   },
@@ -42,5 +42,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "http-proxy-middleware": "^0.20.0"
   }
 }

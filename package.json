@@ -2,6 +2,13 @@
   "name": "yachtman",
   "version": "0.1.0",
   "private": true,
+  "engines":{
+    "node": "13.2.0",
+    "npm": "6.13.1"
+  },
+  "scripts": {
+    "deploy": "serve -s build",
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
